@@ -8,5 +8,5 @@ let multiplicacion = num1 * num2;
 console.log(multiplicacion);
 let modulo = num2 % num1;
 console.log(modulo);
-let potencia = num1 ** num2;
-console.log(potencia);
+let potencial = num1 ** num2;
+console.log(potencial);
