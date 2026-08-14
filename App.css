@@ -1,0 +1,42 @@
+.app {
+  max-width: 480px;
+  margin: 40px auto;
+  font-family: sans-serif;
+}
+
+.filtros button {
+  margin-right: 8px;
+}
+
+.lista-tareas {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-tareas li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+}
+
+.lista-tareas li.completada span:first-child {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.categoria {
+  font-size: 0.75rem;
+  background: #eee;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.form-agregar {
+  margin-top: 16px;
+}
+
+.perfil.error {
+  color: red;
+}
+
